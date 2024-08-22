@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <link rel="stylesheet" href="registerstyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สมัครสมาชิกผู้ใช้งาน</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+        <br><br><br><br>
+        <h1>สมัครสมาชิกผู้ใช้งาน</h1>
+        <h2>1.ข้อมูลส่วนตัว</h2>
+        <form>
+            <div class="textbox">
+                <label for="username">ชื่อผู้ใช้:</label>
+                <input type="text" id="username" name="username" placeholder="ชื่อผู้ใช้" required>
+            </div>
+            <div class="textbox">
+                <label for="user-ser">ชื่อ-สกุล</label>
+                <input type="text" id="user-ser" name="user-ser" placeholder="ชื่อ-สกุล" required>
+            </div>
+
+            <div class="textbox">
+                <label for="callnumber">เบอร์โทร:</label>
+                <input type="number" id="callnumber" name="callnumber" placeholder="เบอร์โทร" required>
+            </div>
+            <div class="textbox">
+                <label for="email">อีเมล์:</label>
+                <input type="email" id="email" name="email" placeholder="อีเมล์" required>
+            </div>
+            <div class="textbox">
+                <label for="password">รหัสผ่าน</label>
+                <input type="password" id="password" name="password" placeholder="รหัสผ่าน" required>
+            </div>
+            <h2>2.ที่อยู่ปัจจุบัน</h2>
+            <div class="textbox">
+                <label for="username">บ้านเลขที่:</label>
+                <input type="text" id="homenumber" name="homenumber" placeholder="บ้านเลขที่" required>
+            </div>
+            <div class="textbox">
+                <label for="province">จังหวัด:</label>
+                <input type="text" id="province" name="province" placeholder="เลือกจังหวัด" required>
+            </div>
+            <div class="textbox">
+                <label for="district">อำเภอ:</label>
+                <input type="text" id="district" name="district" placeholder="เลือกอำเภอ" required>
+            </div>
+            <div class="textbox">
+                <label for="Subdistrict">ตำบล:</label>
+                <input type="text" id="Subdistrict" name="Subdistrict" placeholder="เลือกตำบล" required>
+            </div>
+            <div class="textbox">
+                <label for="username">รหัสไปรษณี:</label>
+                <input type="number" id="password" name="password" placeholder="หัสไปรษณี" required>
+            </div>
+            <div class="textbox">
+                <label for="info">รายละเอียดที่อยู๋:</label>
+                <input type="text" id="info" name="info" placeholder="หมู่,ซอย,ถนน" required>
+            </div>
+            <div class="button">
+                <button type="submit" id="submit" name="sumbit" class="btn">สมัครสมาชิก</button>
+                <button type="reset" id="cancel" name="cancel" class="cancel">ยกเลิก</button>
+            </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
